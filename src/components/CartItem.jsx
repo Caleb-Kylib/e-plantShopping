@@ -1,6 +1,6 @@
 import React from 'react';
 import { useDispatch } from 'react-redux';
-import { cartActions } from '../redux/cartSlice';
+import { cartActions } from '../redux/CartSlice';
 import { Plus, Minus, Trash2 } from 'lucide-react';
 
 const CartItem = ({ item }) => {
